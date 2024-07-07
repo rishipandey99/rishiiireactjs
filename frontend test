@@ -1,0 +1,44 @@
+1}b)using<link>tag
+2 b) using <p> tag
+3} b false
+4} a true
+5} a 100
+6} answer is (a) yes
+7} Here is an example of how you can define the main function and the callback functions cb1 and cb2:
+
+function main(cb1, cb2, x, y) {
+  const result1 = cb1(x, y);
+  const result2 = cb2(x, y);
+  console.log(`Result of cb1: ${result1}`);
+  console.log(`Result of cb2: ${result2}`);
+}
+
+// Define cb1 to add two numbers
+function cb1(x, y) {
+  return x + y;
+}
+
+// Define cb2 to find the difference of two numbers
+function cb2(x, y) {
+  return x - y;
+}
+
+// Call the main function with the callback functions and numbers
+main(cb1, cb2, 11, 4);
+
+This will output:
+
+Result of cb1: 15
+Result of cb2: 7
+
+The main function takes two callback functions cb1 and cb2, and two numbers x and y as parameters. It calls the callback functions with the numbers as arguments, and logs the results to the console.
+
+The cb1 function adds two numbers, and the cb2 function finds the difference between two numbers.
+
+
+
+answer8} c map function
+ans 10}c []
+ans11} option b is correct
+ans12}a) 4 10 18
+ans 13} D)[2,3,4,100]
